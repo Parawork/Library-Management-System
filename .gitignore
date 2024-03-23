@@ -17,6 +17,7 @@ out/
 *.ear
 *.xml
 *.json
+*.ser
 
 ### Eclipse ###
 .apt_generated
