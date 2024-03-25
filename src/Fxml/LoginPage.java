@@ -22,7 +22,19 @@ public class LoginPage {
         stage.setScene(scene);
         stage.show();
     }
+    public void switchlogin(ActionEvent event) throws Exception{
+        //close the current window
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.close();
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("UserLogin.fxml"));
+        Parent root = loader.load();
+        Stage stage2 = new Stage();
+        stage2.setTitle("Login");
+        stage2.setScene(new Scene(root));
+        stage2.show();
 
 
+    }
 //
 }
