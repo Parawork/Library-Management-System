@@ -17,7 +17,7 @@
             <Image url="@../Img/janko-ferlic-sfL_QOnmy00-unsplash.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="148.0" layoutY="335.0" mnemonicParsing="false" text="Login">
+      <Button layoutX="148.0" layoutY="335.0" mnemonicParsing="false" onAction="#switchlogin" text="Login">
          <font>
             <Font size="18.0" />
          </font>
